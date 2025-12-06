@@ -1,10 +1,8 @@
-name = input("whats ur name? ")
+score = int(input("whats ur marks: "))
 
-match name:
-    case "harry" | "ron" | "hermione":
-        print("gryffindor")
-    case "draco":
-        print("slytherin")
-    case _:
-        print("who're you? ")
-        
+if score>=90 and score<=100:
+    print("grade a")
+elif score>=80 and score<=90:
+    print("grade b")
+else:
+    print("can be improved")
