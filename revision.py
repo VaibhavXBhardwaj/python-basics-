@@ -1,8 +1,5 @@
-score = int(input("whats ur marks: "))
-
-if score>=90 and score<=100:
-    print("grade a")
-elif score>=80 and score<=90:
-    print("grade b")
+x= int(input("whats the value of x"))
+if x%2==0:
+    print("even")
 else:
-    print("can be improved")
+    print("odd")
