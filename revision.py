@@ -1,5 +1,4 @@
-x= int(input("whats the value of x"))
-if x%2==0:
-    print("even")
-else:
-    print("odd")
+i = 0
+while i<5:
+    print("meow")
+    i +=1 
